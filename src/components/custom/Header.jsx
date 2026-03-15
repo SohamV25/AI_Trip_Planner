@@ -52,7 +52,7 @@ function Header() {
   return (
     <div>
       <div className="p-3 shadow-sm flex justify-between items-center px-5">
-        <img src="/logo.svg" alt="" /> <h2>Trippy</h2>
+        <img src="/logo.svg" alt="" />
         {user ? (
           <div className="flex items-center gap-5">
             <a href="/create-trip">
